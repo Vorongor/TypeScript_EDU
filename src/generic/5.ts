@@ -8,4 +8,14 @@ interface KeyValuePair {
   value;
 }
 
+const stringKeyValuePair: Partial<KeyValuePair> = {
+  key: "example",
+  value: 42,
+};
+
+const numberKeyValuePair: Partial<KeyValuePair> = {
+  key: 123,
+  value: true,
+};
+
 export {};
